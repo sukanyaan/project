@@ -1,0 +1,106 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Contact Us</title>
+  <link rel="stylesheet" type="text/css" href="Styles/Styles.css" />
+  <style type="text/css">
+    label
+    {
+      color: Black;
+      margin: 0.4em 0em 0.5em 0em;
+      text-align: left;
+      display: block;
+    }
+    
+    figure
+    {
+      color: White;
+      float: left;
+      vertical-align: top;
+      text-align: center;
+      margin: 3em 2em 0em 2em;
+      padding: 2em 2em 2em 2em;
+      box-shadow: 0.8em 0.8em rgba(0,0,0,0.8);
+      -webkit-box-shadow: 0.8em 0.8em rgba(0,0,0,0.8);
+      -moz-box-shadow: 0.8em 0.8em rgba(0,0,0,0.8);
+      -webkit-border-radius: 1em;
+      -moz-border-radius: 1em;
+      border-radius: 1em;
+    }
+    
+    .buttonArea
+    {
+      margin: 1em 0em 0em 0em;
+    }
+  </style>
+</head>
+<body>
+  <form>
+  <div class="mainBorder backColor">
+    <figure class="backColor">
+      <figcaption>Employee details</figcaption>
+      
+      <!-- No need for 'alt'. That's what figcaption is for -->
+    </figure>
+    <!-- A 'fieldset' helps us group all our input fields -->
+    <fieldset>
+      <legend></legend>
+      <!-- Required in a 'fieldset', we just don't need it for this screen -->
+      <div>
+        <label for="txtName" class="normalLabel">
+         First Name</label>
+        <input type="text" name="txtName" class="textInput" required autofocus placeholder="Enter Your Name" />
+      </div>
+      <div>
+        <label for="txtEmail" class="normalLabel">
+          Last Name</label>
+        <!-- NOTE the use of the new 'email' input type -->
+        <input type="email" name="txtEmail" class="textInput" required placeholder="Enter Your Email Address" />
+      </div>
+      <div>
+        <label for="txtUrl" class="normalLabel">
+          Employee ID</label>
+        <!-- NOTE the use of the new 'url' input type -->
+        <input type="url" name="txtUrl" class="textInput" placeholder="Enter Your Id" />
+      </div>
+      <div>
+        <label for="txtUrl" class="normalLabel">
+          Mobile no</label>
+        <!-- NOTE the use of the new 'url' input type -->
+        <input type="url" name="txtUrl" class="textInput" placeholder="Enter Your Mobile no" />
+      </div>
+      
+      
+      <div>
+        <label for="txtUrl" class="normalLabel">
+          Job title</label>
+        <!-- NOTE the use of the new 'url' input type -->
+        <input type="url" name="txtUrl" class="textInput" placeholder="Enter Your Job title" />
+      </div>
+      <div>
+        <label for="txtUrl" class="normalLabel">
+          Department (select feild)</label>
+        <!-- NOTE the use of the new 'url' input type -->
+        <input type="url" name="txtUrl" class="textInput" placeholder="Enter your Department" />
+      </div>
+      <div>
+        <label for="txtUrl" class="normalLabel">
+          Date of joining</label>
+        <!-- NOTE the use of the new 'url' input type -->
+        <input type="url" name="txtUrl" class="textInput" placeholder="Enter Your joining date" />
+      </div>
+      <div>
+        <label for="txtUrl" class="normalLabel">
+          Workshop</label>
+        <!-- NOTE the use of the new 'url' input type -->
+        <input type="url" name="txtUrl" class="textInput" placeholder="Enter Your workshop" />
+      </div>
+      <div class="buttonArea">
+        <input type="submit" class="submitButton backColor" value=" update & save" />
+      </div>
+    </fieldset>
+  </div>
+  </form>
+</body>
+</html>

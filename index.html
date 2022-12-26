@@ -1,0 +1,115 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Employee Details</title>
+  <link rel="stylesheet" type="text/css" href="Styles/Styles.css" />
+ 
+  <style type="text/css">
+    .mainMenu
+    {
+      color: White;
+      float: none;
+      text-decoration: none;
+      display: inline-block;
+      text-align: center;
+      height: 0.5em;
+      width: 5em;
+      margin: 0.5em 0.5em 0.5em 0.5em;
+      padding: 0.3em 1em 1.1em 1em;
+      border: 0.09em solid black;
+      box-shadow: 0.5em 0.5em rgba(0,0,0,0.8);
+      -webkit-box-shadow: 0.5em 0.5em rgba(0,0,0,0.8);
+      -moz-box-shadow: 0.5em 0.5em rgba(0,0,0,0.8);
+      border-radius: 0.5em;
+      -webkit-border-radius: 0.5em;
+      -moz-border-radius: 0.5em;
+    }
+     
+    p
+    {
+      margin-left: 1em;
+    }
+  </style>
+</head>
+<body>
+  
+  <title>Create a User Profile</title>
+  <link rel="stylesheet" type="text/css" href="Styles/Styles.css" />
+  <style type="text/css">
+    legend
+    {
+      font-size: x-large;
+      color: Black;
+      text-align: left;
+      padding: 0.5em 0.5em 0.5em 0.5em;
+      margin: 1em 0.5em 0.5em 0em;
+      border: 0.1em inset Gray;
+      width: 97%;
+      border-radius: 0.75em;
+      -webkit-border-radius: 0.75em;
+      -moz-border-radius: 0.75em;
+    }
+  </style>
+</head>
+<body>
+  <form>
+  <div class="mainBorder backColor">
+    <fieldset>
+      <legend>Employee Details</legend>
+      <div class="clear">
+        <div class="label">
+          <label for="txtLogin">
+            Employee id</label>
+        </div>
+        <div class="control">
+          <input type="text" autofocus required name="txtLogin" placeholder="Enter Your Employee Id" />
+        </div>
+      </div>
+      <div class="clear">
+        <div class="label">
+          <label for="txtFirst">
+            First Name</label>
+        </div>
+        <div class="control">
+          <input type="text" required name="txtFirst" placeholder="Enter Your First Name" />
+        </div>
+      </div>
+      <div class="clear">
+        <div class="label">
+          <label for="txtLast">
+            Last Name</label>
+        </div>
+        <div class="control">
+          <input type="text" required name="txtLast" placeholder="Enter Your Last Name" />
+        </div>
+      </div>
+      <div class="clear">
+        <div class="label">
+          <label for="txtEmail">
+            Mobile no</label>
+        </div>
+        <div class="control">
+          <input type="email" required name="txtEmail" placeholder="Enter Your Mobile no" />
+        </div>
+      </div>
+      
+      
+      <div class="clear">
+        <div class="label">
+          <label for="btnSubmit">
+          </label>
+        </div>
+      
+      </div>
+    </fieldset>
+  </div>
+  </form>
+  <nav class="backColor">
+    <a href="add.htm" class="mainMenu backColor">Add</a>
+    <a href="Edit.htm" class="mainMenu backColor">Edit</a>
+    <button>Delete</button>
+  </nav>
+  <Script src = Script.js></Script>
+</body>
+</html>
